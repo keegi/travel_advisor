@@ -21,7 +21,7 @@ npm install @material-ui/core @material-ui/icons @material-ui/lab @react-google-
 npm install @material-ui/core --legacy-peer-deps \
 npm install @material-ui/icons --legacy-peer-deps \
 npm install @material-ui/lab --legacy-peer-deps \
-npm install @react-google-maps/api --legacy-peer-deps \ 
+npm install @react-google-maps/api --legacy-peer-deps \
 npm install axios \
 npm install google-map-react --legacy-peer-deps 
 
