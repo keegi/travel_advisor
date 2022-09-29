@@ -1,10 +1,29 @@
-# Getting Started with Create React App
+# Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+Google 지도를 사용하여 고급 여행 동반자 응용 프로그램을 구축하고 배포합니다. \
+Geolocation, Google Maps API, 장소 검색, 전문 Rapid API의 위치에 기반한 레스토랑, 호텔 및 명소 가져오기, \
+데이터 필터링 등을 통해, 이 여행 어드바이저 앱은 현재 YouTube 및 전체 인터넷에서 찾을 수 있는 최고의 지도 애플리케이션입니다.
 
-In the project directory, you can run:
+## Setup
+
+폴더 생성 : travel_advisor \
+터미널에서 travel_advisor 폴더 안에 React 설치 : npx create-react-app . \
+src 폴더 삭제 후 : index.js 와 App.js 파일만 생성. \
+public 폴더에서 index.html 파일만 남기고 모두 삭제. 
+
+터미널에서 필요한 파일 설치 : \
+npm install @material-ui/core @material-ui/icons @material-ui/lab @react-google-maps/api axios google-map-react \
+=> @material-ui/core 들의 버전 문제로 설치가 안됨. (React 버전 17 이상 지원 안됨)
+
+아래 코드로 설치 ( package.json 에서 확인 ) \
+npm install @material-ui/core --legacy-peer-deps \
+npm install @material-ui/icons --legacy-peer-deps \
+npm install @material-ui/lab --legacy-peer-deps \
+npm install @react-google-maps/api --legacy-peer-deps \ 
+npm install axios \
+npm install google-map-react --legacy-peer-deps 
 
 ### `npm start`
 
@@ -14,57 +33,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
